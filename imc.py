@@ -7,8 +7,9 @@ poids = st. number_input("donnez le poids :")
 taille = st.number_input("donnez la taille:")
 
 if st.button("calcul"):
-    
-    IMC = poids/ ((taille)**2)
+        #calcul à faire
+    IMC = poids// ((taille)**2)
+   #Conditions
 
 if IMC < 18.5:
     
