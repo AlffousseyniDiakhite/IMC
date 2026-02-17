@@ -10,7 +10,7 @@ if st.button("calcul"):
     
     IMC = poids/ ((taille)**2)
 
-if IMC<18.5:
+if IMC < 18.5:
     
     st. warning ("maigre")
 
